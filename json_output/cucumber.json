@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Promolta Log-in Test",
+        "description": "",
+        "id": "promolta-web-applocation-test;promolta-log-in-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": ": User is on promolta Login page",
+            "match": {
+              "location": "Mobile_FirstPayment_StepDefenation.user_is_on_promolta_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": ": User login with \"Tss99@gmail.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tss99@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "123456",
+                  "offset": 41
+                }
+              ],
+              "location": "Mobile_FirstPayment_StepDefenation.user_login_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": ": Video checkout page is populated search \"trump\" and select the video",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trump",
+                  "offset": 43
+                }
+              ],
+              "location": "Mobile_FirstPayment_StepDefenation._video_checkout_page_is_populated_search_something_and_select_the_video(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Promolta Payment Test",
+        "description": "",
+        "id": "promolta-web-applocation-test;promolta-payment-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": ": appearance will displayed fill details and next",
+            "match": {
+              "location": "Mobile_FirstPayment_StepDefenation._appearance_will_displayed_fill_details_and_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": ": enter budget ammount \"20\" and print views",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 24
+                }
+              ],
+              "location": "Mobile_FirstPayment_StepDefenation._enter_budget_ammount_something_and_print_views(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": ": startcampaign payment popup page will displayed",
+            "match": {
+              "location": "Mobile_FirstPayment_StepDefenation._startcampaign_payment_popup_page_will_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": ":enter the card details \"testcard\" click on pay",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testcard",
+                  "offset": 25
+                }
+              ],
+              "location": "Mobile_FirstPayment_StepDefenation.enter_the_card_details_click_on_pay(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": ": check the payment is successful",
+            "match": {
+              "location": "Mobile_FirstPayment_StepDefenation._check_the_payment_is_successful()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Promolta Web Applocation Test",
+    "description": "",
+    "id": "promolta-web-applocation-test",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/Payments.feature"
+  }
+]
